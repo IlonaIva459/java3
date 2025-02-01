@@ -10,9 +10,9 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int itog = amount + replenish + bonus;
+        int total = amount + replenish + bonus;
 
-        System.out.println("Итого на счете: " + itog);
+        System.out.println("Итого на счете: " + total);
         System.out.println("Начислено бонусов за пополнение: " + bonus);
     }
 }
